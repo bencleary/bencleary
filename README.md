@@ -1,37 +1,77 @@
-### Ben Cleary – Product & Technology Leader
+# Ben Cleary
 
-#### About Me
+**Technical Lead & Software Engineer** building production systems from zero to scale.
 
-I am a product and technology leader with a deep technical foundation in Python, Go and cloud‑native engineering. At Klarian Ltd I guide the delivery of complex software products from concept to production. My background spans backend engineering, distributed systems and geospatial data processing. I enjoy partnering with stakeholders to translate product vision into technical roadmaps and leading cross‑functional teams to deliver high‑quality user experiences.
+I architect distributed systems, lead engineering teams, and write code that solves real problems. My background spans geospatial data processing, industrial IoT, and cloud-native SaaS platforms.
 
-#### Technical Skills
+## 🔧 What I Build
 
-Languages: Python, Go, TypeScript
+I specialize in building data-intensive applications and distributed systems:
 
-Frameworks & Tools: Django, FastAPI, React, Kubernetes, Docker
+- **Geospatial data pipelines** processing terabytes of LiDAR point clouds
+- **Real-time IoT monitoring systems** handling continuous industrial telemetry
+- **Multi-tenant SaaS platforms** with cloud-agnostic Kubernetes infrastructure
+- **Time-series analytics** for industrial monitoring and anomaly detection
 
-Databases: PostgreSQL, TimescaleDB
+## 💻 Technical Stack
 
-Cloud: AWS (S3, EC2), CI/CD with GitHub Actions
+**Primary:**
+- Python (Django, FastAPI, pandas, numpy)
+- TypeScript/JavaScript (VueJS, Node.js)
+- PostgreSQL, TimescaleDB
+- Docker, Kubernetes
+- AWS, Azure
 
-Other: Geospatial processing, distributed systems, test‑driven development
+**Also work with:**
+- Go (side projects, learning)
+- Rust (open source contributions)
+- Flutter (mobile applications)
+- MQTT, Kafka (distributed messaging)
+- Point cloud processing (LiDAR, geospatial analysis)
 
-#### Projects
+## Featured Projects
 
-dtm‑differ – Python command‑line tool and API for quantifying elevation change between digital terrain models. It categorises movement using configurable thresholds and outputs comprehensive reports. I developed the CLI, API and test suite.
+### [dtm-differ](https://github.com/bencleary/dtm-differ)
+Python CLI and API for quantifying elevation change between digital terrain models. Processes massive point clouds, categorizes ground movement using configurable thresholds, and generates comprehensive analysis reports. Built for pipeline and infrastructure monitoring applications.
 
-uploader – Secure file upload service written in Go. It stores encrypted files, generates preview images and metadata, and supports local and S3‑compatible storage. Features include REST API endpoints, a metadata database and a roadmap for streaming encryption.
+**Tech:** Python, NumPy, Click, FastAPI, pytest
 
-django‑timescaledb – Open‑source Django database backend for TimescaleDB. I contributed the Timescale model manager, additional queries and documentation improvements.
+### [uploader](https://github.com/bencleary/uploader)
+Secure file upload service in Go with encryption-at-rest, automatic preview generation, and S3-compatible storage. RESTful API with metadata database and support for both local and cloud storage backends.
 
-fluvio‑client‑python – Python client for the Fluvio streaming platform. I co‑authored the smart module filter feature.
+**Tech:** Go, PostgreSQL, S3 API, encryption
 
-#### Contact
+### django-timescaledb
+Open-source Django database backend for TimescaleDB. Contributed custom model managers, time-series query optimizations, and comprehensive documentation. Used in production for IoT sensor data and industrial monitoring.
 
-Location: Exeter, United Kingdom
+**Tech:** Python, Django, TimescaleDB, PostgreSQL
 
-LinkedIn: linkedin.com/in/bencleary
+### fluvio-client-python
+Python client for Fluvio streaming platform. Co-authored smart module filtering feature enabling real-time data transformation in distributed streaming pipelines.
 
-Medium: medium.com/@bencleary
+**Tech:** Python, Rust bindings, distributed systems
 
-X: x.com/bencleary
+## What I'm Working On
+
+- Building geospatial data processing tools for infrastructure monitoring
+- Exploring distributed systems patterns and real-time data pipelines
+- Contributing to open source projects in the Python and Rust ecosystems
+
+## Open Source
+
+I'm an active contributor to open source:
+- **Moderator** of world's largest Django community (50,000+ members)
+- **Contributor** to Fluvio, Django-TimescaleDB, and various geospatial libraries
+- **Author** of technical articles on distributed systems and software architecture
+
+## Connect
+
+- [LinkedIn](https://linkedin.com/in/bencleary)
+- [Medium](https://medium.com/@bencleary)
+- [X/Twitter](https://x.com/bencleary)
+- me@bencleary.dev
+- Exeter, United Kingdom
+
+---
+
+*Always interested in connecting with engineers working on complex systems, distributed architectures, and data-intensive applications.*
