@@ -34,12 +34,12 @@ I specialize in building data-intensive applications and distributed systems:
 ##### [dtm-differ](https://github.com/bencleary/dtm-differ)
 Python CLI and API for quantifying elevation change between digital terrain models. Processes massive point clouds, categorizes ground movement using configurable thresholds, and generates comprehensive analysis reports. Built for pipeline and infrastructure monitoring applications.
 
-**Tech:** Python, NumPy, Click, FastAPI, pytest
+**Tech:** Python, XDEM, Rasterio, pytest
 
 ##### [uploader](https://github.com/bencleary/uploader)
 Secure file upload service in Go with encryption-at-rest, automatic preview generation, and S3-compatible storage. RESTful API with metadata database and support for both local and cloud storage backends.
 
-**Tech:** Go, PostgreSQL, S3 API, encryption
+**Tech:** Go, PostgreSQL, S3 API, AES Encryption, VueJS/Next
 
 ##### django-timescaledb
 Open-source Django database backend for TimescaleDB. Contributed custom model managers, time-series query optimizations, and comprehensive documentation. Used in production for IoT sensor data and industrial monitoring.
