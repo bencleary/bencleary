@@ -6,7 +6,7 @@ I architect distributed systems, lead engineering teams, and write code that sol
 
 #### What I Build
 
-I specialize in building data-intensive applications and distributed systems:
+I specialise in building data-intensive applications and distributed systems:
 
 - **Geospatial data pipelines** processing terabytes of LiDAR point clouds
 - **Real-time IoT monitoring systems** handling continuous industrial telemetry
@@ -60,7 +60,7 @@ Python client for Fluvio streaming platform. Co-authored smart module filtering 
 #### Open Source
 
 I'm an active contributor to open source:
-- **Moderator** of world's largest Django community (50,000+ members)
+- **Moderator** of Django community (50,000+ members)
 - **Contributor** to Fluvio, Django-TimescaleDB, and various geospatial libraries
 - **Author** of technical articles on distributed systems and software architecture
 
